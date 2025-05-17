@@ -31,8 +31,9 @@ ENV/
 # Environment variables
 .env
 
-# Output directory
-output/
+# Output directory contents (but track the directory)
+output/*
+!output/.gitkeep
 
 # Logs
 logs/
